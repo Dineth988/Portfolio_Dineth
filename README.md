@@ -5,7 +5,7 @@ Designed with a clean UI, smooth animations, and optimized performance.
 
 ### Live Demo: https://dineth-wickramasinghe.netlify.app/
 
-## Features
+### Features
 - Modern and minimal UI design
 - Fully responsive (mobile, tablet & desktop)
 - Fast performance with Vite
