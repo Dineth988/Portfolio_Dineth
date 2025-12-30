@@ -1,0 +1,71 @@
+
+.outerProjectsDiv {
+
+  width: 100%;
+  padding: 0 70px;
+  margin-bottom: 80px;
+}
+
+
+.projectsTitle {
+  margin-bottom: 30px;
+}
+
+.projectsTitle h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+
+
+.projectsDiv {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+.projectsDiv::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.projectDiv {
+  flex-shrink: 0;
+  min-width: 200px;
+  max-width: 300px;
+  border: 2px solid white;
+  border-radius: 16px;
+  padding: 12px;
+}
+
+
+.projectImage {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.projectDiv h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.projectDiv .tech {
+  font-size: 14px;
+  color: #d1d1d1;
+  margin-bottom: 10px;
+}
+
+.projectDiv .desc {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+

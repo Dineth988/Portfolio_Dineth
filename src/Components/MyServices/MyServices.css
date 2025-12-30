@@ -1,0 +1,40 @@
+/* Desktop */
+
+/* Tablet & Mobile */
+@media (max-width: 768px) {
+  .services {
+    align-items: flex-start;
+    gap: 70px;
+    margin: 20px 70px;
+  }
+
+  .servicesTitle h1 {
+    padding: 0;
+    font-size: 40px;
+  }
+
+  .servicesOuterDiv {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .serviceFormat {
+    gap: 20px;
+    padding: 30px;
+    flex-basis: 100%;
+  }
+
+  .serviceFormat h3 {
+    font-size: 20px;
+  }
+
+  .serviceFormat h2 {
+    font-size: 22px;
+  }
+
+  .serviceFormat p {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 100%;
+  }
+}
