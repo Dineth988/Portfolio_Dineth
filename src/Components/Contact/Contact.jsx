@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
 import { Toaster, toast } from 'react-hot-toast'
+import mail_icon from '../../assets/mail_icon.svg'
+import call_icon from '../../assets/call_icon.svg'
+import location_icon from '../../assets/location_icon.svg'
 
 const Contact = () => {
 
@@ -57,13 +60,13 @@ const Contact = () => {
                 <p className='xl:max-w-[550px] md:max-w-[400px] text-[#D8D8D8] text-[18px] leading-[35px] max-md:text-[18px] '>I create web and mobile apps using React, Tailwind, and Java. I enjoy learning new technologies and crafting user-friendly experiences.</p>
                 <div className='flex flex-col gap-[30px] text-[#D8D8D8] text-[18px] '>
                     <div className='flex items-center gap-[20px] '> 
-                        <img src="src\assets\mail_icon.svg" alt="" width={25}/> <p>dilmindineth988@gmail.com</p>
+                        <img src={mail_icon} alt="" width={25}/> <p>dilmindineth988@gmail.com</p>
                     </div>
                     <div className='flex items-center gap-[20px] '>
-                        <img src="src\assets\call_icon.svg" alt="" width={25}/> <p>+94 760586108</p>
+                        <img src={call_icon} alt="" width={25}/> <p>+94 760586108</p>
                     </div>
                     <div className='flex items-center gap-[19.5px] '>
-                        <img src="src\assets\location_icon.svg" alt="" width={25} className='h-[27px]'/> <p>Horana,Sri Lanka</p>
+                        <img src={location_icon} alt="" width={25} className='h-[27px]'/> <p>Horana,Sri Lanka</p>
                     </div>
                 </div>
             </div>

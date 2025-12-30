@@ -1,11 +1,12 @@
 import React from 'react'
+import dw_logo from '../../assets/dw_logo.png'
 
 function Footer() {
   return (
     <div className='flex flex-col my-[50px] xl:mx-[170px] md:mx-[30px] gap-[30px] max-md:my-[50px] max-md:mx-[70px]'>
         <div className='flex justify-between max-md:flex-col max-md:gap-[50px]'>
             <div>
-                <img src="src\assets\dw_logo.png" alt="" className='w-30'/> 
+                <img src={dw_logo} alt="" className='w-30'/> 
                 <p className='text-[18px] max-md:text-[16px]'>Have questions, feedback, or a project in mind? I’d love to hear from you! Whether you're looking for expert guidance in mobile app development, enterprise solutions, or software architecture, I'm here to help</p>           
             </div>
         </div>

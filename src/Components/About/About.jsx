@@ -1,4 +1,5 @@
 import React from 'react'
+import postman_icon from '../../assets/icons8-postman-api-64.png'
 
 const About = () => {
   return (
@@ -50,7 +51,7 @@ const About = () => {
                     <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
                     <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
                     <img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="src\assets\icons8-postman-api-64.png" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src={postman_icon} alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
                 </div>
                 <p className='text-[20px] font-[500] max-md:text-center max-md:text-[16px]'>Tools & Technologies</p>
             </div>
