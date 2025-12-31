@@ -4,8 +4,8 @@
 @media (max-width: 768px) {
   .services {
     align-items: flex-start;
-    gap: 70px;
-    margin: 20px 70px;
+    gap: 40px;
+    margin: 20px 20px;
   }
 
   .servicesTitle h1 {

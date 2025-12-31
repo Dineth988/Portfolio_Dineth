@@ -4,14 +4,14 @@ import './MyServices.css'
 
 const MyServices = () => {
   return (
-    <div id="offers" className="services flex flex-col items-center justify-center gap-[80px] xl:mx-[170px] md:mx-[30px]">
+    <div id="offers" className="services flex flex-col items-center justify-center mx-5 gap-[80px] xl:mx-[170px] md:mx-[30px]">
       <div className="servicesTitle relative">
         <h1 className="py-0 px-[30px] text-[60px] font-[600]">
           What I Offer
         </h1>
       </div>
 
-      <div className="servicesOuterDiv flex flex-wrap justify-center gap-[40px] mb-[20px]">
+      <div className="servicesOuterDiv flex flex-wrap justify-center gap-[40px] mb-[30px] sm:mb-[20px]">
         {Services_Data.map((service, index) => (
           <div
             key={index}

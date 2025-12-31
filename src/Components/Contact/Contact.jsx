@@ -50,7 +50,7 @@ const Contact = () => {
 
 
   return (
-    <div id='contact' className='flex flex-col items-center justify-center gap-[80px] my-[80px] xl:mx-[170px] md:mx-[30px] max-md:gap-[50px] max-md:my-[50px] max-md:mx-[70px] max-md:items-start max-md:gap-[20px] '>
+    <div id='contact' className='flex flex-col items-center justify-center sm:gap-[80px] my-[80px] xl:mx-[170px] mx-5 md:mx-[170px] max-md:gap-[20px] max-md:my-[40px]  max-md:items-start max-md:gap-[20px] '>
         <div className='relative '>
             <h1 className='py-0 px-[30px] text-[60px] font-[600] max-md:p-0 max-md:text-[40px] max-md:font-[600] '>Get in touch</h1>
         </div>
@@ -70,9 +70,9 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <form onSubmit={onSubmit} className='flex flex-col items-start gap-[25px] md:min-w-[400px]'>
+            <form onSubmit={onSubmit} className='flex flex-col items-start gap-[25px] md:min-w-[400px] '>
                 <label htmlFor="" className='text-[#D8D8D8] text-[20px] font-[500] max-md:text-[18px] '>Your Name</label>
-                <input type="text" placeholder='Enter your name' name='name' className='border-0 xl:w-[700px] md:w-[100%] h-[70px]  pl-[20px] rounded-[4px] bg-[#32323c] text-[#A0A0A0] font-outfit text-[18px] mt-[-15px] max-md:w-[100%] max-md:text-[16px] '/>
+                <input type="text" placeholder='Enter your name' name='name' className='border-0 xl:w-[700px]  md:w-[100%] h-[70px]  pl-[20px] rounded-[4px] bg-[#32323c] text-[#A0A0A0] font-outfit text-[18px] mt-[-15px] max-md:w-[100%] max-md:text-[16px] '/>
                 <label htmlFor="" className='text-[#D8D8D8] text-[20px] font-[500] max-md:text-[18px] '>Your Email</label>
                 <input type="email" placeholder='Enter your email' name='eamil' className='border-0 xl:w-[700px] md:w-[100%]  h-[70px] pl-[20px] rounded-[4px] bg-[#32323c] text-[#A0A0A0] font-outfit text-[18px] mt-[-15px] max-md:w-[100%]  max-md:text-[16px]'/>
                 <label htmlFor="" className='text-[#D8D8D8] text-[20px] font-[500] max-md:text-[18px] '>Write Your Message Here</label>

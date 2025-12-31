@@ -70,9 +70,9 @@ const ProjectCarousel = () => {
     }
   return (
     <>
-    <div id='work' className='flex flex-col items-center justify-center w-full my-[80px] max-md:my-[50px] max-md:hidden  '>
+    <div id='work' className='flex flex-col items-center justify-center w-full  my-[80px] max-md:my-[50px] max-md:hidden  '>
         <div className='relative'>
-            <h1 className='py-0 px-[30px] text-[60px] font-[600] mb-[100px] '>My Latest Projects</h1>
+            <h1 className='py-0 px-[30px] text-[60px]  font-[600] mb-[100px] '>My Latest Projects</h1>
         </div>
         <div className='relative flex items-center flex-col justify-center w-[75.3%] mt-[-135px]  max-md:hidden'>
             {myproject_data.map((project,index) => (

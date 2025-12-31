@@ -3,7 +3,7 @@ import dw_logo from '../../assets/dw_logo.png'
 
 function Footer() {
   return (
-    <div className='flex flex-col my-[50px] xl:mx-[170px] md:mx-[30px] gap-[30px] max-md:my-[50px] max-md:mx-[70px]'>
+    <div className='flex flex-col my-[50px] xl:mx-[170px] md:mx-[30px] gap-[30px] max-md:my-[50px] mx-5 md:mx-[70px]'>
         <div className='flex justify-between max-md:flex-col max-md:gap-[50px]'>
             <div>
                 <img src={dw_logo} alt="" className='w-30'/> 

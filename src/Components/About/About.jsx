@@ -3,14 +3,14 @@ import postman_icon from '../../assets/icons8-postman-api-64.png'
 
 const About = () => {
   return (
-    <div id='about' className='flex flex-col items-center content-center gap-[80px] my-20 xl:mx-[170px] md:mx-[30px] max-md:gap-[80px] max-md:my-[50px] max-md:mx-[70px] max-md:items-start '>
+    <div id='about' className='flex flex-col items-center content-center sm:gap-[80px] sm:my-20 mx-5 xl:mx-[170px] md:mx-[30px] gap-8 sm:gap-[80px] md:my-[50px]  max-md:items-start '>
         <div className=''>
             <h1 className='py-[0px] px-[30px] text-[60px] font-[600] max-md:text-[40px] max-md:p-0 '>About Me</h1>
             
         </div>
         <div className='flex xl:gap-20 md:gap-10 max-md:flex-col'>
             <div className='max-md:hidden'>
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQHwuSnc1z7TcQ/profile-displayphoto-crop_800_800/B56ZiDDq4hHkAU-/0/1754545437299?e=1767830400&v=beta&t=a-y3bnGUIu5nHxrsYMJNNtf-r0_XF4O13RItGc_l8I0" className='rounded-[20px] xl:h-120 xl:w-370 md:h-80 md:w-300 object-cover' alt=""/>
+                <img src="https://avatars.githubusercontent.com/u/176466487?v=4" className='rounded-[20px] xl:h-120 xl:w-370 md:h-80 md:w-300 object-cover' alt=""/>
             </div>
             <div className='flex flex-col gap-13'>
                 <div className='flex flex-col gap-7 text-[20px] font-[500] '>
@@ -27,31 +27,31 @@ const About = () => {
         <div className='flex w-[100%] justify-around mb-5  max-md:flex-col '>
             <div className='flex flex-col items-center gap-[20px] transition-all duration-500 hover:scale-110 py-5 max-md:gap-[10px] max-md:py-1'> 
                 <div className='flex gap-3'>
-                    <img src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=9Gfx4Dfxl0JK&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=9Gfx4Dfxl0JK&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
                 </div>
                 <p className='text-[20px] font-[500] max-md:text-center max-md:text-[16px] '>Frameworks</p>
             </div>
             <hr className='h-20 w-[2px] bg-white border-0 mt-[30px] max-md:w-[80%] max-md:h-[2px] max-md:mx-auto' />
             <div className='flex flex-col items-center gap-[20px] transition-all duration-500 hover:scale-110 py-5  max-md:gap-[10px] max-md:py-1 max-md:mt-7'>
                 <div className='flex gap-3'>
-                    <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=fYgHk9PCZQly&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=fYgHk9PCZQly&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
                 </div>
                 <p className='text-[20px] font-[500] max-md:text-center max-md:text-[16px]'>Programming & Web Languages</p>
             </div>
             <hr className='h-20 w-[2.2px] bg-white border-0 mt-[30px] max-md:w-[80%] max-md:h-[2px] max-md:mx-auto' />
             <div className='flex flex-col items-center gap-[20px] transition-all duration-500 hover:scale-110 py-5  max-md:gap-[10px] max-md:py-1  max-md:mt-7'>
                 <div className='flex gap-3'>
-                    <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
-                    <img src={postman_icon} alt="" className='xl:w-12 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
+                    <img src={postman_icon} alt="" className='xl:w-12 xl:h-9 md:w-[36px] md:h-[36px] max-md:w-8 max-md:h-8'/>
                 </div>
                 <p className='text-[20px] font-[500] max-md:text-center max-md:text-[16px]'>Tools & Technologies</p>
             </div>

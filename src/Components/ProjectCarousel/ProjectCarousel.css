@@ -2,18 +2,20 @@
 .outerProjectsDiv {
 
   width: 100%;
-  padding: 0 70px;
-  margin-bottom: 80px;
+  padding: 0 20px;
+  margin-bottom: 0px;
 }
 
 
 .projectsTitle {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+
 }
 
 .projectsTitle h1 {
   font-size: 36px;
   font-weight: 600;
+  
 }
 
 
