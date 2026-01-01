@@ -57,7 +57,7 @@ const Contact = () => {
         <div className='flex xl:gap-[150px] md:gap-[40px] max-md:flex-col max-md:gap-[70px]'>
             <div className='flex flex-col gap-[30px] '>
                 <h1 className='text-[60px] font-[700] bg-gradient-to-r from-[#DF8908] to-[#8901c8] bg-clip-text text-transparent max-md:text-[44px] '>Let's talk</h1>
-                <p className='xl:max-w-[550px] md:max-w-[400px] text-[#D8D8D8] text-[18px] leading-[35px] max-md:text-[18px] '>I create web and mobile apps using React, Tailwind, and Java. I enjoy learning new technologies and crafting user-friendly experiences.</p>
+                <p className='xl:max-w-[550px] md:max-w-[400px] text-[#D8D8D8] text-[18px] leading-[35px] max-md:text-[18px] '>Have a project idea or a question? I’m always open to learning, collaborating, and working on exciting projects.</p>
                 <div className='flex flex-col gap-[30px] text-[#D8D8D8] text-[18px] '>
                     <div className='flex items-center gap-[20px] '> 
                         <img src={mail_icon} alt="" width={25}/> <p>dilmindineth988@gmail.com</p>

@@ -7,7 +7,7 @@ function Footer() {
         <div className='flex justify-between max-md:flex-col max-md:gap-[50px]'>
             <div>
                 <img src={dw_logo} alt="" className='w-30'/> 
-                <p className='text-[18px] max-md:text-[16px]'>Have questions, feedback, or a project in mind? I’d love to hear from you! Whether you're looking for expert guidance in mobile app development, enterprise solutions, or software architecture, I'm here to help</p>           
+                <p className='text-[18px] max-md:text-[16px]'>Focused on learning, building, and growing through hands-on projects while collaborating with others and exploring new ideas in software development.</p>           
             </div>
         </div>
         <hr/>
