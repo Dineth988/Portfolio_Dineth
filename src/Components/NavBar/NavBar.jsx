@@ -4,12 +4,11 @@ import menu_close from '../../assets/menu_close.svg'
 import menu_open from '../../assets/menu_open.svg'
 
 const navLinks = [
-  { label: 'Home', href: '#home', offset: 0 },
-  { label: 'About', href: '#about', offset: 0 },
+  { label: 'Home',       href: '#home',       offset: 0 },
+  { label: 'About',      href: '#about',      offset: 0 },
   { label: 'Experience', href: '#experience', offset: 0 },
-  { label: 'Offer', href: '#offer', offset: 0 },
-  { label: 'Projects', href: '#projects', offset: 0 },
-  { label: 'Contact', href: '#contact', offset: 0 },
+  { label: 'Offer',      href: '#offer',      offset: 0 },
+  { label: 'Projects',   href: '#projects',   offset: 0 },
 ]
 
 const EASING = 'cubic-bezier(0.4, 0, 0.2, 1)'

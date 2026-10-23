@@ -31,10 +31,10 @@ const Hero = () => {
       style={{ background: 'var(--bg)' }}
     >
       <div className="relative z-10 w-full max-w-[1140px] mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-16">
-        
+
         {/* ── LEFT COLUMN: Text Content ── */}
         <div className="flex flex-col items-start max-w-[620px] w-full">
-          
+
           {/* Subtle status pill */}
           <motion.div {...fadeUp(0.1)} className="mb-6">
             <span
@@ -110,7 +110,7 @@ const Hero = () => {
             </AnchorLink>
 
             <a
-              href="/Dineth-Wickramasinghe-CV.pdf"
+              href="/DINETH_WICKRAMASINGHE_AI_Application_Engineer.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary px-7 py-3 text-[14px]"
