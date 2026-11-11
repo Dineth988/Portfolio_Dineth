@@ -12,7 +12,7 @@ export const featuredProjects = [
     solution: 'An AI Q&A agent built with FastAPI and LangChain that answers document queries via a Qdrant vector database, searches document archives, extracts structured JSON, and triggers external automated webhooks.',
     impact: 'Fully containerized with Docker & Docker Compose for zero-friction local setup and cloud deployment. Enables reliable, grounded document intelligence at scale.',
     stack: ['Python', 'FastAPI', 'LangChain', 'Qdrant', 'Docker', 'Docker Compose'],
-    github: 'https://github.com/Dineth988', // TODO: update with exact repo link if public
+    github: 'https://github.com/Dineth988/Enterprise_Knowledge_Assistant', // TODO: update with exact repo link if public
     live: null
   },
   {
