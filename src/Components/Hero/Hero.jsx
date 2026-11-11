@@ -206,7 +206,7 @@ const Hero = () => {
             }}
           >
             <img
-              src="public/pp.jpeg"
+              src="/pp.jpeg"
               alt="Dineth Wickramasinghe"
               className="w-full h-full object-cover object-top rounded-full filter  hover:grayscale-105 transition-all duration-500"
             />
