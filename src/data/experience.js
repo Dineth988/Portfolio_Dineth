@@ -12,7 +12,7 @@ export const experienceData = [
     location: 'Colombo, Sri Lanka',
     isCurrent: true,
     image: '/images/experience/slt.jpg',
-    primaryFocus: '// TODO',
+    primaryFocus: 'RAG Based Application Development',
     environment: 'Telecom Infrastructure',
     deliveryPhase: 'In Progress',
     bullets: [
@@ -31,8 +31,8 @@ export const experienceData = [
     period: '02/2026 – 10/2026',
     location: 'Pelawatta, Sri Lanka',
     isCurrent: false,
-    image: '/images/experience/doe.jpg',
-    primaryFocus: 'Exam Assessment AI',
+    image: 'D:\Git\Portfolio_Dineth\public\images\experience\doe.jpg',
+    primaryFocus: 'Exam Assessment AI Automations',
     environment: 'Public Sector AI',
     deliveryPhase: '4-Workflow Pipeline',
     bullets: [
