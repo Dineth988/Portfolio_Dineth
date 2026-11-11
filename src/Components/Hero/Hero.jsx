@@ -206,9 +206,9 @@ const Hero = () => {
             }}
           >
             <img
-              src="/pp.png"
+              src="public\pp.jpeg"
               alt="Dineth Wickramasinghe"
-              className="w-full h-full object-cover object-top rounded-full filter grayscale contrast-105 hover:grayscale-0 transition-all duration-500"
+              className="w-full h-full object-cover object-top rounded-full filter  hover:grayscale-105 transition-all duration-500"
             />
           </div>
         </motion.div>
